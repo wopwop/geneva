@@ -1,0 +1,123 @@
+
+.rounded-corners (@radius: 5px) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+}
+
+.big-input{
+  font-size:18px;
+  padding:11px 12px 10px;
+}
+
+.big-label{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#header{
+    border-bottom: 1px solid #CCCCCC;
+    box-shadow: 0 2px 0 #F5F5F5;
+    height: 60px;
+    margin: 0;
+}
+
+#logo{
+    float: left;
+    margin: 14px 0 0;
+}
+
+#cities{
+    background: url("images/row.png") no-repeat scroll 7px 5px #57A957;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 17px 0 0 30px;
+    padding: 5px 10px 5px 25px;
+}
+
+#menu{
+    float: right;
+    list-style: none outside none;
+  li{
+    border-left: 1px solid #CCCCCC;
+    float: left;
+    font-size: 16px;
+    height: 60px;
+    line-height: 3.6em;
+    padding: 0 25px;
+    text-align: center;
+  }
+  li a{
+    margin:0;
+    text-decoration:none;
+    color:#444;
+  }
+  
+  li:hover{
+    margin:0;
+    background:none repeat scroll 0 0 #FFFBD0;
+  }
+  
+}
+
+#big-thumb{
+    background: url("images/header-hand-iphone_02.png") no-repeat scroll -52px 0 transparent;
+    height: 440px;
+    margin: 0;
+    width: 360px;
+}
+
+#overview{
+  margin: 35px 0 0;
+  h1{
+    color: #2E567A;
+    font-size: 36px;
+  }
+  p{
+    font-size: 17px;
+    line-height: 1.7;
+  }
+}
+
+#singup-form {
+    background: none repeat scroll 0 0 #E5E5E5;
+    margin: 20px 0 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    .rounded-corners;
+  
+  input{
+    .big-input;
+  }
+  
+  label{
+    .big-label;
+  }
+  
+}
+
+#signup-bt{
+  .rounded-corners;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: -20px;
+  margin-top: 30px;
+  padding: 10px;
+  width: 140px;
+}
+
+#howto{
+    float: left;
+    margin: 25px 0 0;
+  p{
+    line-height: 1.7em;
+    font-size:14px;
+  }
+  h2{
+  color:#C4C4C4;
+  }
+}
